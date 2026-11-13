@@ -1,0 +1,9 @@
+numpy
+scipy
+pycocotools
+pillow
+openai
+torch
+torchvision
+transformers>=5.0
+accelerate

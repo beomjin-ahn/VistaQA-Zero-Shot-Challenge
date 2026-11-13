@@ -1,0 +1,89 @@
+{
+  "metadata": {
+    "epsilon": 0.05,
+    "judge_model": "Qwen2.5-14B-Instruct",
+    "total_samples": 1157,
+    "official_commit": "6ad724f03ca4c7f6862cae257f46e263726f41f6"
+  },
+  "overall": {
+    "standard_average": 0.7920628523659173
+  },
+  "breakdown": {
+    "task_type": [
+      {
+        "group": "attribute",
+        "standard_average": 0.8180102827129215
+      },
+      {
+        "group": "comparison",
+        "standard_average": 0.8251012960430476
+      },
+      {
+        "group": "counting",
+        "standard_average": 0.795366756111602
+      },
+      {
+        "group": "identification",
+        "standard_average": 0.7833084993355286
+      },
+      {
+        "group": "ocr",
+        "standard_average": 0.7855986169019807
+      },
+      {
+        "group": "spatial",
+        "standard_average": 0.7471948624025438
+      }
+    ],
+    "domain": [
+      {
+        "group": "av",
+        "standard_average": 0.8257191645266257
+      },
+      {
+        "group": "indoor",
+        "standard_average": 0.8240118730775609
+      },
+      {
+        "group": "math",
+        "standard_average": 0.7448823054007773
+      },
+      {
+        "group": "outdoor",
+        "standard_average": 0.8011532633605403
+      },
+      {
+        "group": "robotics",
+        "standard_average": 0.6726146659524389
+      },
+      {
+        "group": "science",
+        "standard_average": 0.8696945899647929
+      }
+    ],
+    "is_hallucination": [
+      {
+        "group": "false",
+        "standard_average": 0.7538241563927839
+      },
+      {
+        "group": "true",
+        "standard_average": 0.8947227909179921
+      }
+    ],
+    "instance_group": [
+      {
+        "group": "zero_instance",
+        "standard_average": 0.8947227909179921
+      },
+      {
+        "group": "single_instance",
+        "standard_average": 0.7651823531360212
+      },
+      {
+        "group": "multi_instance",
+        "standard_average": 0.7264173334819763
+      }
+    ]
+  }
+}
